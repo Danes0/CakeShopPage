@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <meta name="authors" content="Daniela Escobar, Isabella Mora, Alejandro Romero">
+    <meta name="description" content="Final Project">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="header">
+        <!-- Logo and Navigation -->
+        <img src="images/logo.png" class="logo" alt="logo">
+        <div>
+            <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
+                <li id="bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                <!-- Search Form -->
+                <form>
+                    <div class="search">
+                        <span class="search_icon material-symbols-outlined">Search</span>
+                        <input class="search_input" type="search" placeholder="Search">
+                    </div>
+                </form>
+            </ul>
+        </div>
+        <!-- Mobile Menu Icon -->
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </header>
+    
+    <div class="payment-t">
+    <!-- Payment form -->
+    <h2>Sweet Transactions: Get ready to pay</h2>
+    <p>Thank you for choosing our delectable cakes! To complete your purchase, please fill out the secure payment form below. Provide accurate billing and payment information to ensure a smooth transaction process. Once the form is filled, double-check your details and proceed to submit. Rest assured, your payment information is encrypted and protected for your security. Should you encounter any issues or have inquiries, feel free to reach out to our customer support team for assistance. We appreciate your business and hope you enjoy your sweet treats!</p>
+    </div>
+    <div class="container-p">
+        <form action="">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">billing address</h3>
+                    <div class="inputBox">
+                        <span>Full name :</span>
+                        <input type="text" placeholder="Jane Doe">
+                    </div>
+                    <div class="inputBox">
+                        <span>Email :</span>
+                        <input type="email" placeholder="example@example.com">
+                    </div>
+                    <div class="inputBox">
+                        <span>Address :</span>
+                        <input type="text" placeholder="room - street - locality">
+                    </div>
+                    <div class="inputBox">
+                        <span>City :</span>
+                        <input type="text" placeholder="Toronto">
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>Province :</span>
+                            <input type="text" placeholder="Canada">
+                        </div>
+                        <div class="inputBox">
+                            <span>Zip code :</span>
+                            <input type="text" placeholder="M1N1M9">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+    
+                    <h3 class="title">Payment</h3>
+    
+                    <div class="inputBox">
+                        <span>Cards accepted :</span>
+                        <img src="images/card_img.jpg" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span>Name on card :</span>
+                        <input type="text" placeholder="Jane Doe">
+                    </div>
+                    <div class="inputBox">
+                        <span>Credit card number :</span>
+                        <input type="number" placeholder="1234-5678-1234-1234">
+                    </div>
+                    <div class="inputBox">
+                        <span>Expiration month :</span>
+                        <input type="text" placeholder="December">
+                    </div>
+    
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>Expiration year :</span>
+                            <input type="number" placeholder="2024">
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV :</span>
+                            <input type="text" placeholder="1234">
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <input type="submit" value="Pay" class="submit-btn">
+        </form>
+    </div>
+
+    <!--Footer Section-->
+    <footer>
+        <!--Logo/Follow Column-->
+        <div class="col1">
+            <img class="logo" src="images/logo.png" alt="page-logo">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+        <!--Contact Column-->
+        <div class="col2">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>120 Bloor St E, Toronto, ON M4W 1B7</p>
+            <p><strong>Phone: </strong>+1(460) 434-5543</p>
+            <p> <strong>Hours: </strong></p>
+            <p>Monday to Friday 9 AM - 9 PM</p>
+            <p>Saturday 9 AM - 4 PM</p>
+        </div>
+        <!--About Column-->
+        <div class="col3">
+            <h4>Company</h4>
+            <a href="about.html">About us</a>
+            <a href="about.html#delivery">Delivery Information</a>
+            <a href="about.html#privacy-policy">Privacy Policy</a>
+            <a href="about.html#terms">Terms & Conditions</a>
+        </div>
+        <!--My Account Column-->
+        <div class="col3">
+            <h4>Account</h4>
+            <a href="#">My Account</a>
+            <a href="#">Sign In</a>
+            <a href="cart.html">Payment</a>
+            <a href="contact_us.html">Contact Us</a>
+        </div>
+        <!-- Newsletter Signup Column -->
+        <div class="newsletter">
+            <h4>Subscribe to Our Newsletter!</h4>
+            <p>Get the latest news, promotions, and updates delivered straight to your inbox.</p>
+            <form action="" method="post">
+                <input type="email" name="email" placeholder="Your email address"
+                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+                <button type="submit" name="subscribe">Subscribe Now!</button>
+            </form>
+        </div>
+
+        <!-- Custom Popup -->
+        <div class="custom-popup" id="customPopup">
+            <span class="custom-popup-close" onclick="closeCustomPopup()">&times;</span>
+            <p id="customPopupMessage">Thanks for subscribing!</p>
+        </div>
+
+        <!--Copyright-->
+        <div class="copyright">
+            <p>©2024, Company Name. All right reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/b5343ede9a.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Custom Script -->
+    <script src="script/script.js"></script>
+</body>
+
+</html>
