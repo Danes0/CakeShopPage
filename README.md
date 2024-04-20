@@ -15,5 +15,5 @@ Contributions:
 - Header and Footer: Design and structure of the website's header and footer.
 - Home and About Us: Development of the home page and the "About Us" section with engaging content and responsive design, including the implementation of functionalities using JavaScript.
 - Products: Development of the catalog and product detail pages, including pagination.
-- 
+  
 This project is the result of collaborative effort, where each contribution has been vital to achieving a coherent and high-quality user experience.
