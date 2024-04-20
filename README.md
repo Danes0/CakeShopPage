@@ -10,7 +10,7 @@ Site Sections:
 - Products (2 pages): List of available products with detailed images and descriptions.
 - Contact Us: Contact form for customer inquiries and feedback.
 - Payment: Secure payment process for purchasing products.
-- 
+  
 Contributions:
 - Header and Footer: Design and structure of the website's header and footer.
 - Home and About Us: Development of the home page and the "About Us" section with engaging content and responsive design, including the implementation of functionalities using JavaScript.
